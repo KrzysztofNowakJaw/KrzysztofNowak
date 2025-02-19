@@ -12,5 +12,7 @@ Alteryx is low code platform designed to perform ETL process
 
 ## R
 
-R is programming languages designed for statistics and graphics
+R is programming languages designed for statistics and graphics.
+
+However, it has evolved considerably in recent years, mainly due to the Tidyverse ecosystem which also makes it a powerful tool in the area of Business Intelligence or Data Engineering.
 :::
