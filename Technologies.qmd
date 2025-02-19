@@ -8,7 +8,7 @@ I've worked with many tools over the course of my several-year career, but two h
 ::: {#Alteryx .panel-tabset .nav-pills}
 ## Alteryx
 
-Alteryx is low code platform designed to perform ETL process
+Alteryx is low code platform designed to perform ETL process. It is an extremely effective tool to streamline corporate processes involving the processing of large amounts of complex data.
 
 ## R
 
