@@ -15,4 +15,12 @@ Alteryx is low code platform designed to perform ETL process. It is an extremely
 R is programming languages designed for statistics and graphics.
 
 However, it has evolved considerably in recent years, mainly due to the Tidyverse ecosystem which also makes it a powerful tool in the area of Business Intelligence or Data Engineering.
+
+Example of its great BI capabilities is how You can create tables.
+
+```{r}
+
+library(gt)
+
+```
 :::
