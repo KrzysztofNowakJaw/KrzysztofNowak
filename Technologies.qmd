@@ -18,9 +18,43 @@ However, it has evolved considerably in recent years, mainly due to the Tidyvers
 
 Example of its great BI capabilities is how You can create tables.
 
-```{r}
-
+```{r echo=FALSE ,warning=FALSE,error=FALSE,message = FALSE}
+library(tidyverse)
+library(gtExtras)
+library(plotly)
 library(gt)
+library(scales)
+library(patchwork)
+library(ggtext)
 
+Bands <- readRDS('data/Bands.RDS')
+BandsStats <- readRDS('data/BandsStats.RDS')
+
+BandsHeaders <- c("Band","Events","Total Contracts","Average contract",'Highest value')
+names(BandsStats) <- BandsHeaders
+
+BandsStats <- 
+  BandsStats |>
+  select(-c(Events)) |>
+  arrange(desc(`Average contract`))
+
+```
+
+```{r,error=FALSE,message = FALSE,warning=FALSE,echo=FALSE}
+BandsStats |>
+  gt() |>
+  tab_header(
+  title = "Most expensive bands") |> 
+  fmt_currency(columns = c("Total Contracts","Average contract",'Highest value')) |>
+  gt_color_rows(2:4, palette = "ggsci::blue_material") |>
+  tab_options(
+    heading.subtitle.font.size = 12,
+    heading.align = "left",
+    table.border.top.color = "white",
+    column_labels.border.bottom.color = "black",
+    column_labels.border.bottom.width= px(3),
+    table.align = "left"
+  ) |>
+  tab_source_note(md(" **Data**: Music agency"))
 ```
 :::
