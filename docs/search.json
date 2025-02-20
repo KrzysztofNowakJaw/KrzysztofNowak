@@ -39,6 +39,6 @@
     "href": "Technologies.html",
     "title": "Tech Stack",
     "section": "",
-    "text": "I’ve worked with many tools over the course of my several-year career, but two have made a particular mark on my professional experience and education: Alteryx and the R language.\n\nAlteryxR\n\n\nAlteryx is low code platform designed to perform ETL process\n\n\nR is programming languages designed for statistics and graphics"
+    "text": "I’ve worked with many tools over the course of my several-year career, but two have made a particular mark on my professional experience and education: Alteryx and the R language.\n\nAlteryxR\n\n\nAlteryx is low code platform designed to perform ETL process. It is an extremely effective tool to streamline corporate processes involving the processing of large amounts of complex data.\n\n\nR is programming languages designed for statistics and graphics.\nHowever, it has evolved considerably in recent years, mainly due to the Tidyverse ecosystem which also makes it a powerful tool in the area of Business Intelligence or Data Engineering.\nExample of its great BI capabilities is how You can create tables.\n\nlibrary(gt)"
   }
 ]
