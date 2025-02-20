@@ -5,8 +5,10 @@ website:
   title: "Krzysztof Nowak"
   navbar:
     left:
-      - text: "Technologies"
-        href: Technologies.qmd
+    - href: Technologies.qmd
+      text: "Technologies"
+    - href: Blog.qmd
+      text: "Blog"
     tools:
       - icon: github
         menu:
