@@ -40,7 +40,7 @@ BandsStats <-
 
 ```
 
-```{r,error=FALSE,message = FALSE,warning=FALSE,echo=FALSE}
+```{r,error=FALSE,message = FALSE,warning=FALSE,echo=TRUE}
 BandsStats |>
   gt() |>
   tab_header(
