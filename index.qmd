@@ -15,7 +15,7 @@ about:
       href: https://www.linkedin.com/in/krzysztofnowakdata/
     - icon: github
       text: Github
-      href: github.com/KrzysztofNowakJaw
+      href: https://github.com/KrzysztofNowakJaw
     - icon: brush
       text: Blog
       href: https://medium.com/@krzysieknowak_55470
