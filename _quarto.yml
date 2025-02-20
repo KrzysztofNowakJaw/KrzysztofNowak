@@ -21,7 +21,7 @@ website:
 
 format:
   html:
-    theme: solar
+    theme: A calm blue sky
     css: styles.css
     toc: true
 
