@@ -12,7 +12,7 @@ R is programming languages designed for statistics and graphics.
 
 However, it has evolved considerably in recent years, mainly due to the Tidyverse ecosystem which also makes it a powerful tool in the area of Business Intelligence or Data Engineering.
 
-Example of its great BI capabilities is how You can create tables.
+Example of its great BI capabilities is how You can:
 
 ```{r echo=FALSE ,warning=FALSE,error=FALSE,message = FALSE}
 library(tidyverse)
@@ -33,6 +33,14 @@ BandsStats <-
   BandsStats |>
   select(-c(Events)) |>
   arrange(desc(`Average contract`))
+```
+
+Summarize data
+
+```{r echo=FALSE ,warning=FALSE,error=FALSE,message = FALSE}
+library(skimr)
+
+skim(Bands)
 ```
 
 ```{r,error=FALSE,message = FALSE,warning=FALSE,echo=TRUE}
